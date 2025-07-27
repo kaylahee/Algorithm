@@ -6,7 +6,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.sln
 
 # 빌드 결과물
 x64/
