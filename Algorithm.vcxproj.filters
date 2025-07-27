@@ -21,29 +21,29 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01.cpp">
+    <ClCompile Include="Baekjoon\2606.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2839.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\11720.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14501.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15649.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower of Implementation\01.cpp">
       <Filter>소스 파일\Tower of Implementation</Filter>
     </ClCompile>
-    <ClCompile Include="02.cpp">
+    <ClCompile Include="Tower of Implementation\02.cpp">
       <Filter>소스 파일\Tower of Implementation</Filter>
     </ClCompile>
-    <ClCompile Include="03.cpp">
+    <ClCompile Include="Tower of Implementation\03.cpp">
       <Filter>소스 파일\Tower of Implementation</Filter>
-    </ClCompile>
-    <ClCompile Include="2606.cpp">
-      <Filter>소스 파일\Baekjoon</Filter>
-    </ClCompile>
-    <ClCompile Include="2839.cpp">
-      <Filter>소스 파일\Baekjoon</Filter>
-    </ClCompile>
-    <ClCompile Include="11720.cpp">
-      <Filter>소스 파일\Baekjoon</Filter>
-    </ClCompile>
-    <ClCompile Include="14501.cpp">
-      <Filter>소스 파일\Baekjoon</Filter>
-    </ClCompile>
-    <ClCompile Include="15649.cpp">
-      <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

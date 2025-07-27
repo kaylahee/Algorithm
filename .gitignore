@@ -1,21 +1,38 @@
-# Visual Studio
-*.sln
-*.vcxproj*
+# Visual Studio 관련
 .vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 빌드 결과물
 x64/
 Debug/
 Release/
-*.user
-*.obj
-*.pdb
+build/
+bin/
+obj/
+
+# 기타
+*.log
+*.tlog/
+*.lastbuildstate
+*.pch
 *.idb
-*.ipch
+*.pdb
+*.ipch/
 *.aps
 *.ncb
-*.opendb
-*.tlog
-*.suo
-*.cache
-*.ilk
-*.log
-*.tmp
+*.opensdf
+*.sdf
+*.cachefile
+
+# OS 관련
+Thumbs.db
+.DS_Store
+
+# 기타 환경설정, 캐시 등
+*.VC.db
+*.VC.VC.opendb
