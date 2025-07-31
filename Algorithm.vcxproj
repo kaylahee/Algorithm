@@ -19,6 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="04.cpp" />
+    <ClCompile Include="05.cpp" />
+    <ClCompile Include="06.cpp" />
+    <ClCompile Include="07.cpp" />
+    <ClCompile Include="5650.cpp" />
     <ClCompile Include="Baekjoon\11720.cpp" />
     <ClCompile Include="Baekjoon\14501.cpp" />
     <ClCompile Include="Baekjoon\15649.cpp" />
@@ -27,6 +32,7 @@
     <ClCompile Include="Tower of Implementation\01.cpp" />
     <ClCompile Include="Tower of Implementation\02.cpp" />
     <ClCompile Include="Tower of Implementation\03.cpp" />
+    <ClCompile Include="Tower of Implementation\04.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
