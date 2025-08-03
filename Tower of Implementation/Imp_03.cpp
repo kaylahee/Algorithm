@@ -48,7 +48,7 @@ bool checkDia2(std::vector<std::vector<int>> arr) {
 	return true;
 }
 
-int main_03() {
+int main_imp_03() {
 	// ºù°íÆÇ
 	std::vector<std::vector<int>> num_matrix(5, std::vector<int>(5, 0));
 	for (int i = 0; i < 5; i++) {

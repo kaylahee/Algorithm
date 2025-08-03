@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-int main_02() {
+int main_imp_02() {
 	int n;
 	std::cin >> n;
 

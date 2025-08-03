@@ -7,7 +7,7 @@ std::vector<std::string> times = {
 	"eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"
 };
 
-int main_04() {
+int main_imp_04() {
 	int h, m;
 	std::cin >> h >> m;
 

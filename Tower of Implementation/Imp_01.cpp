@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-int main_01() {
+int main_imp_01() {
 	int n;
 	std::cin >> n;
 
