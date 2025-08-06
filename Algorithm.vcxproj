@@ -19,28 +19,31 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08.cpp" />
-    <ClCompile Include="2382.cpp" />
+    <ClCompile Include="09.cpp" />
+    <ClCompile Include="10.cpp" />
+    <ClCompile Include="5658.cpp" />
     <ClCompile Include="Baekjoon\11720.cpp" />
     <ClCompile Include="Baekjoon\14501.cpp" />
     <ClCompile Include="Baekjoon\15649.cpp" />
     <ClCompile Include="Baekjoon\2606.cpp" />
     <ClCompile Include="Baekjoon\2839.cpp" />
-    <ClCompile Include="Imp_07.cpp" />
     <ClCompile Include="Imp_08.cpp" />
-    <ClCompile Include="Imp_09.cpp" />
-    <ClCompile Include="Imp_10.cpp" />
+    <ClCompile Include="SWEA\2382.cpp" />
     <ClCompile Include="SWEA\5650.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="Tower of DAT\04.cpp" />
     <ClCompile Include="Tower of DAT\06.cpp" />
     <ClCompile Include="Tower of DAT\07.cpp" />
+    <ClCompile Include="Tower of DAT\08.cpp" />
     <ClCompile Include="Tower of Implementation\Imp_01.cpp" />
     <ClCompile Include="Tower of Implementation\Imp_02.cpp" />
     <ClCompile Include="Tower of Implementation\Imp_03.cpp" />
     <ClCompile Include="Tower of Implementation\Imp_04.cpp" />
     <ClCompile Include="Tower of Implementation\Imp_05.cpp" />
     <ClCompile Include="Tower of Implementation\Imp_06.cpp" />
+    <ClCompile Include="Tower of Implementation\Imp_07.cpp" />
+    <ClCompile Include="Tower of Implementation\Imp_09.cpp" />
+    <ClCompile Include="Tower of Implementation\Imp_10.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
