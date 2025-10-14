@@ -36,7 +36,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <cmath>
 
 struct Tree {
 	int age;
@@ -47,8 +46,6 @@ int n, m, k;
 int ground[11][11];
 int A[11][11];
 std::vector<Tree> tree_map[11][11];
-std::vector<Tree> tree;
-std::vector<Tree> alived_tree;
 
 bool compare(Tree a, Tree b) {
 	return a.age < b.age;
