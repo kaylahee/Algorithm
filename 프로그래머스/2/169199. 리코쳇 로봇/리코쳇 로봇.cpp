@@ -8,8 +8,7 @@
 // 네 방향 중에 벽, 장애물이 있는지 판단해야 한다.
 // 만약, 장애물이 상 좌 에 있다면 우나 하로 가야 한다.
 
-// dfs 활용해서 풀 예정
-// 장애물에 도착할 때까지 직진, 4방향으로 가지치기 할 예정
+// bfs 활용해서 문제를 해결
 
 #include <iostream>
 #include <string>
@@ -22,17 +21,10 @@ using namespace std;
 // 시작 위치, 도착 위치
 int sy, sx, ey, ex;
 
-// 움직일 위치 : y, x
-// 장애물에 부딪힌 횟수 : blockCnt
-// 방향 나타내는 변수 : dir
-// board
-
-int minBlockCnt = 21e8;
-
+int dist[101][101];
+int visited[101][101];
 int dy[4] = {-1, 1, 0, 0};
 int dx[4] = {0, 0, -1, 1};
-int visited[101][101];
-int dist[101][101];
 void bfs(int sy, int sx, std::vector<std::string>& board){
     std::queue<std::pair<int, int>> q;
     q.push({sy, sx});
