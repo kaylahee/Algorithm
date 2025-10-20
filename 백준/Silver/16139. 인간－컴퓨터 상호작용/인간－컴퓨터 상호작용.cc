@@ -13,9 +13,13 @@
 #include <iostream>
 #include <string>
 
-int alpha[2001][26];
+int alpha[200001][26];
+int sum[200001][26];
 
 int main() {
+	std::ios_base::sync_with_stdio(false);
+	std::cin.tie(NULL);
+
 	std::string s;
 	std::cin >> s;
 
@@ -23,9 +27,9 @@ int main() {
 		alpha[i][s[i] - 'a']++;
 	}
 
-	for (int i = 0; i < s.size(); i++) {
-		for (int j = 0; j < 26; j++) {
-
+	for (int i = 0; i < 26; i++) {
+		for (int j = 1; j <= s.size(); j++) {
+			sum[j][i] = alpha[j - 1][i] + sum[j - 1][i];
 		}
 	}
 
@@ -37,11 +41,12 @@ int main() {
 		int l, r;
 		std::cin >> l >> r;
 
-		int sum = 0;
+		/*int sum = 0;
 		for (int i = l; i <= r; i++) {
 			sum += alpha[i][c - 'a'];
-		}
-		std::cout << sum << "\n";
+		}*/
+
+		std::cout << sum[r + 1][c - 'a'] - sum[l][c - 'a'] << "\n";
 	}
 
 	return 0;
